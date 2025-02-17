@@ -1,0 +1,22 @@
+#container {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 400px; 
+    height: 400px; 
+    border: 1px solid black;
+    margin: 20px auto;
+  }
+  
+  .grid-item {
+      width: calc(100% / 16); /* Each item takes 1/16th of the container width */
+      height: calc(100% / 16); /* Maintain square aspect ratio */
+      border: 1px solid lightgray; 
+      box-sizing: border-box; 
+    }
+  
+    .squareButton {
+      display: flex;
+      flex-wrap: wrap; 
+      border: 1px solid black; 
+      margin: 20px auto;
+  }
